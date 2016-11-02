@@ -1,14 +1,19 @@
 {
-  "name": "r3alforge",
+  "name": "forgecord",
   "version": "1.0.0",
-  "description": "Desktop client for managing R3alB0t",
-  "main": "index.js",
+  "description": "Desktop client for DiscordForge with R3alB0t managment integration",
+  "main": "app.js",
   "scripts": {
-    "test": "eslint"
+    "test": "eslint",
+    "start": "electron ."
   },
   "keywords": [
     "r3alb0t"
   ],
   "author": "Perry Berman",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "DiscordForge": "^0.3.7",
+    "electron": "^1.4.5"
+  }
 }
