@@ -1,0 +1,14 @@
+{
+  "name": "r3alforge",
+  "version": "1.0.0",
+  "description": "Desktop client for managing R3alB0t",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint"
+  },
+  "keywords": [
+    "r3alb0t"
+  ],
+  "author": "Perry Berman",
+  "license": "BSD-3-Clause"
+}
