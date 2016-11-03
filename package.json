@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "eslint",
-    "start": "electron ."
+    "start": "node_modules/.bin/electron ."
   },
   "keywords": [
     "r3alb0t"
@@ -14,6 +14,11 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "DiscordForge": "^0.3.7",
-    "electron": "^1.4.5"
+    "electron": "^1.4.5",
+    "electron-hot-loader": "^0.8.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "request": "^2.76.0",
+    "superagent": "^2.3.0"
   }
 }

@@ -6,11 +6,11 @@ const url = require('url');
 
 function createWindow() {
   // Create the browser window.
-  let mainWindow = new BrowserWindow({ width: 800, height: 600, frame: false, icon: './assets/DiscordForge.png' });
+  let mainWindow = new BrowserWindow({ width: 800, height: 600, frame: false, titleBarStytle: "hidden", icon: './assets/DiscordForge.png', title: "ForgeCord" });
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, 'views/login.html'),
+    pathname: path.join(__dirname, 'views/index.html'),
     protocol: 'file:',
     slashes: true
   }));
